@@ -1,0 +1,224 @@
+header {
+    background-color: purple;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 60px;
+    text-align: center;
+}
+
+nav {
+    background: white;
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 22px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+#barra {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+body {
+    background-color: plum;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 500px;
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+}
+
+.item:nth-child(1) {
+    background-image: url(adesivo1.jpg);
+    width: 300px;
+    height: 350px;
+    border: 5px solid purple;
+}
+
+.item:nth-child(2) {
+    background-image: url(adesivo2.jpg);
+    width: 300px;
+    height: 350px;
+    border: 5px solid pink;
+}
+
+.item:nth-child(3) {
+    background-image: url(adesivo3.jpg);
+    width: 300px;
+    height: 350px;
+    border: 5px solid purple;
+}
+
+.item:nth-child(4) {
+    background-image: url(adesivo4.jpg);
+    width: 300px;
+    height: 350px;
+    border: 5px solid pink;
+}
+
+.item:nth-child(5) {
+    background-image: url(adesivo5.jpg);
+    width: 300px;
+    height: 350px;
+    border: 5px solid purple;
+}
+
+.item {
+    background-position: center;
+    background-size: cover;
+    transition: flex 0.8s ease;
+}
+
+.item:hover {
+    flex: 5;
+
+}
+
+.adesivo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    border: 15px solid purple;
+    background-color: purple;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#cartela {
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer {
+    background-color: purple;
+}
+
+#texto {
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+#fundo {
+    background-color: plum;
+    border: solid 15px purple;
+}
+
+#fundo2 {
+    background-color: gray;
+    border: solid 15px black;
+}
+
+.unha {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.galeria2 {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 500px;
+}
+
+.item2 {
+    flex: 1;
+    height: 100%;
+}
+
+.item2:nth-child(1) {
+    background-image: url(mao1.jpg);
+    width: 300px;
+    height: 350px;
+    border: 5px solid black;
+}
+
+.item2:nth-child(2) {
+    background-image: url(mao2.jpg);
+    width: 300px;
+    height: 350px;
+    border: 5px solid white;
+}
+
+.item2:nth-child(3) {
+    background-image: url(pe1.jpg);
+    width: 300px;
+    height: 350px;
+    border: 5px solid black;
+}
+
+.item2:nth-child(4) {
+    background-image: url(pe2.jpg);
+    width: 300px;
+    height: 350px;
+    border: 5px solid white;
+}
+
+.item2:nth-child(5) {
+    background-image: url(mao3.jpg);
+    width: 300px;
+    height: 350px;
+    border: 5px solid black;
+}
+
+.item2 {
+    background-position: center;
+    background-size: cover;
+    transition: flex 0.8s ease;
+}
+
+.item2:hover {
+    flex: 5;
+
+}
+
+.centralizar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#preco_unha {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#preco2 {
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#cartela2 {
+    text-align: center;
+}
+
+.login {
+    border: solid 15px purple;
+}
